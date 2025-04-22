@@ -2,7 +2,8 @@ from tkinter import filedialog as fd
 
 def select_file():
     filetypes = (
-        ('Audio Files', '*.m4a'),
+        ('Video and Audio Files', '*.m4a *.mkv *.mp4 *.avi *.mov *.wav *.mp3'),
+        ('All Files', '*.*')
     )
 
     filename = fd.askopenfilename(
